@@ -51,7 +51,7 @@ function check()
     }
 
     chances+=1;
-    if(chances>=5) {
+    if(chances>5) {
         cont.classList.add("container");
         cont.classList.add("bg-danger");
         desc.innerHTML="Oops! chances exceeded ❗❗";
